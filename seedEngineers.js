@@ -2,7 +2,7 @@ require("dotenv").config({ path: "./.env" });
 const mongoose = require("mongoose");
 const Engineer = require("./models/Engineers");
 
-const MONGO_URI = process.env.MONGO_URI;
+const MONGO_URI = "mongodb+srv://bhavukverma2001:bhavuk123@cluster0.osd5wyr.mongodb.net/erm_db?retryWrites=true&w=majority&appName=Cluster0";
 
 const seedEngineers = async () => {
   try {

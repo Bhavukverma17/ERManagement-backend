@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 const User = require("./models/User");
 
 
-const MONGO_URI = process.env.MONGO_URI;
+const MONGO_URI = "mongodb+srv://bhavukverma2001:bhavuk123@cluster0.osd5wyr.mongodb.net/erm_db?retryWrites=true&w=majority&appName=Cluster0";
 if (!MONGO_URI) {
   console.error("❌ MONGO_URI is undefined. Check .env file or dotenv path.");
   process.exit(1);

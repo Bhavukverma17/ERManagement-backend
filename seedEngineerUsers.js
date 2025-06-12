@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 const User = require("./models/User");
 
-const MONGO_URI = process.env.MONGO_URI;
+const MONGO_URI = "mongodb+srv://bhavukverma2001:bhavuk123@cluster0.osd5wyr.mongodb.net/erm_db?retryWrites=true&w=majority&appName=Cluster0";
 
 const seedEngineerUsers = async () => {
   try {
