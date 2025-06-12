@@ -82,4 +82,4 @@ const seedProjects = async () => {
   }
 };
 
-module.exports = seedProjects;
+seedProjects(); 

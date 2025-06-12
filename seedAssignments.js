@@ -130,4 +130,4 @@ const seedAssignments = async () => {
   }
 };
 
-module.exports = seedAssignments; 
+seedAssignments(); 

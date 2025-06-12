@@ -146,4 +146,4 @@ const seedEngineers = async () => {
   }
 };
 
-module.exports = seedEngineers; 
+seedEngineers(); 
