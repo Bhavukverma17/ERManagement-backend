@@ -109,4 +109,4 @@ const seedUsers = async () => {
   }
 };
 
-seedUsers();
+module.exports = seedUsers;

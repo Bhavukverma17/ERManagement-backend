@@ -112,4 +112,4 @@ const seedEngineerUsers = async () => {
   }
 };
 
-seedEngineerUsers(); 
+module.exports = seedEngineerUsers; 
